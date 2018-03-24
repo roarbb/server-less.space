@@ -21,7 +21,7 @@ export default () => (
           </div>
           <span>explained</span> <br />
         </div>
-        <div className={styles.small_text}>switch edition</div>        
+        <div className={styles.vertical_text}>switch edition</div>        
         <img src={deskSvg} width="550" />
       </div>
       <Footer />
