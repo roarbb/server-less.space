@@ -1,0 +1,19 @@
+:root {
+  --blue: #2dc2bd;
+  --square-size: 80px;
+  --yellow: #eed646;
+}
+
+.square {
+  display: grid;
+  background: var(--blue);
+  width: var(--square-size);
+  height: var(--square-size);
+  justify-self: end;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+  font-family: "Sigmar One", cursive;
+  color: var(--yellow);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

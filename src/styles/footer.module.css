@@ -1,0 +1,24 @@
+:root {
+  --dark-blue: #108682;
+  --yellow: #eed646;
+  --grey: #292929;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--dark-blue);
+  padding: 0 0 10px 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: var(--yellow);
+  text-shadow: -1px 0 var(--grey), 0 1px var(--grey), 1px 0 var(--grey),
+    0 -1px var(--grey);
+}

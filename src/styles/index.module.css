@@ -1,0 +1,46 @@
+:root {
+  --yellow: #eed646;
+}
+
+.content_wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.content {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-template-columns: 1fr 20px 2fr;
+  font-family: "Sigmar One", cursive;
+  grid-gap: 70px;
+}
+
+.badass_text {
+  font-size: 40px;
+  color: var(--yellow);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.badass_text span {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 30px;
+}
+
+.small_text {
+  letter-spacing: 2px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  white-space: nowrap;
+  font-size: 40px;
+  color: var(--yellow);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  top: -150px;
+}

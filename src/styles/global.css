@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Roboto|Sigmar+One');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

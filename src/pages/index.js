@@ -1,15 +1,30 @@
 import React from "react";
 import Link from "gatsby-link";
+import VideoContainer from "../components/video-container";
+import Footer from "../components/footer";
+import Menu from "../components/menu";
+import styles from "../styles/index.module.css";
+import deskSvg from "../assets/desk.svg";
+
+import "normalize.css";
+import "../styles/global.css";
 
 export default () => (
-  <div style={{ color: `tomato` }}>
-    <h1>Hello Gatsby!</h1>
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
-    <br />
-    <div>
-      <Link to="/page-2/">Link</Link>
-      <Link to="/counter">Counter</Link>
+  <VideoContainer>
+    <div className={styles.content_wrapper}>
+      <Menu />
+      <div className={styles.content}>
+        <div className={styles.badass_text}>
+          <div>
+            J &middot; A &middot; M <br />
+            stack
+          </div>
+          <span>explained</span> <br />
+        </div>
+        <div className={styles.small_text}>switch edition</div>        
+        <img src={deskSvg} width="550" />
+      </div>
+      <Footer />
     </div>
-  </div>
+  </VideoContainer>
 );
