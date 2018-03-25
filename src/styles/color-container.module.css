@@ -1,0 +1,17 @@
+:root {
+  --blue: #2dc2bd;
+  --grey: #292929;
+  --yellow: #ec9a29;
+  --imperial: #693570;
+}
+
+.color_container {
+  display: grid;
+  background: var(--imperial);
+  min-height: 100vh;
+  color: white;
+  font-family: "Sigmar One", cursive;
+  font-size: 18px;
+  text-shadow: -1px 0 var(--grey), 0 1px var(--grey), 1px 0 var(--grey),
+    0 -1px var(--grey);
+}

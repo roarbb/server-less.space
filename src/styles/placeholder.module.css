@@ -1,0 +1,23 @@
+:root {
+  --yellow: #ec9a29;
+}
+
+.site_wrapper {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.site_wrapper a {
+  text-decoration: none;
+  color: var(--yellow);
+  font-family: "Poppins", sans-serif;
+  padding: 10px 15px;
+  justify-self: end;
+}
+
+.site_wrapper a:hover {
+  background: var(--yellow);
+  color: white;
+}

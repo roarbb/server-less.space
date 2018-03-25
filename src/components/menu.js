@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link"
 import styles from "../styles/menu.module.css";
 
 class Menu extends React.Component {
@@ -20,9 +21,9 @@ class Menu extends React.Component {
         {this.state.open ? 'X' : 'Menu'}
         </div>
         <div className={`${styles.menu} ${this.state.open ? styles.open : styles.closed}`}>
-          <div>Item 1</div>
-          <div>Item 2</div>
-          <div>Item 3</div>
+          <div><Link to="/placeholder">About</Link></div>
+          <div><Link to="/placeholder">JAM Stack</Link></div>
+          <div><Link to="/placeholder">More</Link></div>
         </div>
       </div>
     );

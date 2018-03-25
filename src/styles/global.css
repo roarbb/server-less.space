@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Roboto|Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Sigmar+One|Poppins:700');
 
 h1,
 h2,
@@ -17,4 +17,8 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+h1 {
+  padding-bottom: 5px;
 }
