@@ -5,10 +5,11 @@
 }
 
 .footer {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sigmar One", cursive;
   font-size: 14px;
   color: var(--dark-blue);
   padding: 0 0 10px 20px;
+  z-index: 11;
 }
 
 .footer a {

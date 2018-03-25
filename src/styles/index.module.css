@@ -17,6 +17,14 @@
   grid-gap: 70px;
 }
 
+.img_box {
+  width: 90%;
+}
+
+.img_box img {
+  max-height: 300px;
+}
+
 .badass_text {
   font-size: 40px;
   color: var(--yellow);
