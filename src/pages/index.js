@@ -16,7 +16,7 @@ export default () => (
       <div className={styles.content}>
         <div className={styles.badass_text}>
           <div>
-            J &middot; A &middot; M <br />
+            <div className={styles.title}>J &middot; A &middot; M</div>
             stack
           </div>
           <span>explained</span> <br />
