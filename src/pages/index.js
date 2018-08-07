@@ -9,24 +9,40 @@ import deskSvg from "../assets/desk.svg";
 import "normalize.css";
 import "../styles/global.css";
 
-export default () => (
-  <VideoContainer>
-    <div className={styles.content_wrapper}>
-      <Menu />
-      <div className={styles.content}>
-        <div className={styles.badass_text}>
-          <div>
-            <div className={styles.title}>J &middot; A &middot; M</div>
-            stack
+export default ({data}) => {
+  return (
+    <VideoContainer>
+      <div className={styles.content_wrapper}>
+        <Menu menuItems={data.allContentfulPage.edges} />
+        <div className={styles.content}>
+          <div className={styles.badass_text}>
+            <div>
+              <div className={styles.title}>J &middot; A &middot; M</div>
+              stack
+            </div>
+            <span>explained</span> <br />
           </div>
-          <span>explained</span> <br />
+          <div className={styles.vertical_text}>switch edition</div>
+          <div className={styles.img_box}>
+            <img src={deskSvg} />
+          </div>
         </div>
-        <div className={styles.vertical_text}>switch edition</div>
-        <div className={styles.img_box}>
-          <img src={deskSvg} />
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  </VideoContainer>
-);
+    </VideoContainer>
+  );
+};
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allContentfulPage(limit: 100) {
+      edges {
+        node {
+          id
+          slug
+          title
+        }
+      }
+    }
+  }
+`;
