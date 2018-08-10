@@ -13,8 +13,6 @@ class Page extends Component {
       body,
     } = this.props.data.contentfulPage
 
-    console.log(this.props.data)
-
     return (
       <ColorContainer>
         <div className={styles.site_wrapper}>
