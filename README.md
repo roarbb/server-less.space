@@ -1,10 +1,6 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# JAM stack basic example
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
-
-## Running in development
-`gatsby develop`
+Using: 
+- *Gatsby* as a static site generator
+- hosted on *Neflify*
+- content site management *Contentful*
