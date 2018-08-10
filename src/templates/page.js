@@ -18,7 +18,7 @@ class Page extends Component {
     return (
       <ColorContainer>
         <div className={styles.site_wrapper}>
-          <h1>{title}</h1>
+          <h1><Link to={`/`}>&laquo;</Link>{title}</h1>
           <div
             dangerouslySetInnerHTML={{
               __html: body.childMarkdownRemark.html

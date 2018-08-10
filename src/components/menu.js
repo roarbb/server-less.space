@@ -17,9 +17,9 @@ class Menu extends React.Component {
   render() {
     const navigation = this.props.menuItems.map(item => {
       return (
-        <div key={item.node.id}>
-          <Link to={`/${item.node.slug}/`}>{item.node.title}</Link>
-        </div>
+        <Link to={`/${item.node.slug}/`} key={item.node.id}>
+          <div>{item.node.title}</div>
+        </Link>
       );
     });
 
