@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
+import Link from "gatsby";
 import Menu from "../components/menu";
 import ColorContainer from "../components/color-container";
 import Footer from "../components/footer";

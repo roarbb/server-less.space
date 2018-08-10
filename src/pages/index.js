@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import Link from "gatsby";
 import VideoContainer from "../components/video-container";
 import Footer from "../components/footer";
 import Menu from "../components/menu";
