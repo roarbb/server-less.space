@@ -12,7 +12,7 @@
     "gatsby": "^1.9.277",
     "gatsby-cli": "^1.1.58",
     "gatsby-image": "^1.0.41",
-    "gatsby-link": "^1.6.38",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-source-contentful": "^1.3.41",
     "gatsby-transformer-remark": "^1.7.36",
